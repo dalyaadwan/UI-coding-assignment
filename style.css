@@ -1,0 +1,81 @@
+body {
+  font-family: helvetica, sans-serif;
+}
+
+.fa {
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 4px 4px 0 0 black;
+  text-decoration: none;
+  color: black;
+  padding: 8px 40px;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  float: right;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  color: white;
+  letter-spacing: 1.7px;
+  position: relative;
+  left: 15px;
+}
+
+.navbar-nav {
+  position: absolute;
+  right: 0px;
+  padding: 20px;
+}
+
+.navbar-custom {
+  background-color: #2B78E4;
+  color: white;
+}
+
+.custom-toggler.navbar-toggler {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 0px;
+  float: left;
+  padding: 1px 15px 1px 5px; 
+  box-shadow: 3px 3px 0 0 black;
+} 
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background-color: white;
+}
+
+#center {
+  margin: auto;
+  width: 85%;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+p {
+  margin-bottom: 3px;
+}
+
+#record {
+  font-size: 20px;
+}
